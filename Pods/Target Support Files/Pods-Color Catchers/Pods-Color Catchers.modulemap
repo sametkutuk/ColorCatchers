@@ -1,0 +1,6 @@
+framework module Pods_Color_Catchers {
+  umbrella header "Pods-Color Catchers-umbrella.h"
+
+  export *
+  module * { export * }
+}

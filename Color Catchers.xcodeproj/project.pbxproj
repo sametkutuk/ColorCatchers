@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1B12EA2482CDD000062284 /* clickTrue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD1B12E92482CDD000062284 /* clickTrue.mp3 */; };
+		CD1B12EC2482D0D300062284 /* shakeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1B12EB2482D0D300062284 /* shakeLabel.swift */; };
+		CD1B12EE2482E6F100062284 /* clickFalse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD1B12ED2482E6F100062284 /* clickFalse.mp3 */; };
+		CD1B12F02482EA1900062284 /* finishGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD1B12EF2482EA1900062284 /* finishGame.mp3 */; };
+		CD1B12F22482EA2100062284 /* addTime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD1B12F12482EA2100062284 /* addTime.mp3 */; };
+		CD1B12F42482FC8B00062284 /* doxent_-_Forgotten_Land.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD1B12F32482FC8A00062284 /* doxent_-_Forgotten_Land.mp3 */; };
+		CD1B12F72483189E00062284 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1B12F62483189E00062284 /* Social.framework */; };
+		CD3EF4802460ADF70038A47C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF47F2460ADF70038A47C /* AppDelegate.swift */; };
+		CD3EF4822460ADF70038A47C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF4812460ADF70038A47C /* SceneDelegate.swift */; };
+		CD3EF4842460ADF70038A47C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF4832460ADF70038A47C /* ViewController.swift */; };
+		CD3EF4872460ADF70038A47C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3EF4852460ADF70038A47C /* Main.storyboard */; };
+		CD3EF48C2460ADFB0038A47C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3EF48A2460ADFB0038A47C /* LaunchScreen.storyboard */; };
+		CD3EF4942460B17C0038A47C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF4932460B17C0038A47C /* GameViewController.swift */; };
+		CD3EF4962460DE900038A47C /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF4952460DE900038A47C /* EndViewController.swift */; };
+		CD57B8D124645C6E00D26E90 /* shakeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57B8D024645C6E00D26E90 /* shakeButton.swift */; };
+		FDBFEE7ADFAE9A240A0BD5B2 /* Pods_Color_Catchers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1686806E4B62D89B3981FD8 /* Pods_Color_Catchers.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD4570A0F158E028D3DCBA08 /* Pods-Color Catchers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Color Catchers.release.xcconfig"; path = "Target Support Files/Pods-Color Catchers/Pods-Color Catchers.release.xcconfig"; sourceTree = "<group>"; };
+		CD1B12E92482CDD000062284 /* clickTrue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickTrue.mp3; sourceTree = "<group>"; };
+		CD1B12EB2482D0D300062284 /* shakeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shakeLabel.swift; sourceTree = "<group>"; };
+		CD1B12ED2482E6F100062284 /* clickFalse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickFalse.mp3; sourceTree = "<group>"; };
+		CD1B12EF2482EA1900062284 /* finishGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = finishGame.mp3; sourceTree = "<group>"; };
+		CD1B12F12482EA2100062284 /* addTime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = addTime.mp3; sourceTree = "<group>"; };
+		CD1B12F32482FC8A00062284 /* doxent_-_Forgotten_Land.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "doxent_-_Forgotten_Land.mp3"; sourceTree = "<group>"; };
+		CD1B12F62483189E00062284 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CD1B12FA24833B7D00062284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3EF47C2460ADF70038A47C /* Color Catchers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Catchers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3EF47F2460ADF70038A47C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD3EF4812460ADF70038A47C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD3EF4832460ADF70038A47C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD3EF4862460ADF70038A47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD3EF48B2460ADFB0038A47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD3EF48D2460ADFB0038A47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3EF4932460B17C0038A47C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CD3EF4952460DE900038A47C /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		CD57B8D024645C6E00D26E90 /* shakeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shakeButton.swift; sourceTree = "<group>"; };
+		CDDC1BA625D8884B0065655C /* Color Catchers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Color Catchers.entitlements"; sourceTree = "<group>"; };
+		D1686806E4B62D89B3981FD8 /* Pods_Color_Catchers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Color_Catchers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBF79B208C29AA2550597B7 /* Pods-Color Catchers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Color Catchers.debug.xcconfig"; path = "Target Support Files/Pods-Color Catchers/Pods-Color Catchers.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3EF4792460ADF70038A47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1B12F72483189E00062284 /* Social.framework in Frameworks */,
+				FDBFEE7ADFAE9A240A0BD5B2 /* Pods_Color_Catchers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1B12E82482CDAC00062284 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CD1B12E92482CDD000062284 /* clickTrue.mp3 */,
+				CD1B12ED2482E6F100062284 /* clickFalse.mp3 */,
+				CD1B12EF2482EA1900062284 /* finishGame.mp3 */,
+				CD1B12F12482EA2100062284 /* addTime.mp3 */,
+				CD1B12F32482FC8A00062284 /* doxent_-_Forgotten_Land.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		CD1B12F52483189E00062284 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD1B12F62483189E00062284 /* Social.framework */,
+				D1686806E4B62D89B3981FD8 /* Pods_Color_Catchers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3EF4732460ADF70038A47C = {
+			isa = PBXGroup;
+			children = (
+				CD1B12E82482CDAC00062284 /* Sounds */,
+				CD3EF47E2460ADF70038A47C /* Color Catchers */,
+				CD3EF47D2460ADF70038A47C /* Products */,
+				CD1B12F52483189E00062284 /* Frameworks */,
+				CF3D0C8444296085D78F4B92 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3EF47D2460ADF70038A47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EF47C2460ADF70038A47C /* Color Catchers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3EF47E2460ADF70038A47C /* Color Catchers */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC1BA625D8884B0065655C /* Color Catchers.entitlements */,
+				CD3EF47F2460ADF70038A47C /* AppDelegate.swift */,
+				CD3EF4812460ADF70038A47C /* SceneDelegate.swift */,
+				CD3EF4832460ADF70038A47C /* ViewController.swift */,
+				CD3EF4932460B17C0038A47C /* GameViewController.swift */,
+				CD3EF4952460DE900038A47C /* EndViewController.swift */,
+				CD57B8D024645C6E00D26E90 /* shakeButton.swift */,
+				CD1B12EB2482D0D300062284 /* shakeLabel.swift */,
+				CD3EF4852460ADF70038A47C /* Main.storyboard */,
+				CD1B12FA24833B7D00062284 /* Assets.xcassets */,
+				CD3EF48A2460ADFB0038A47C /* LaunchScreen.storyboard */,
+				CD3EF48D2460ADFB0038A47C /* Info.plist */,
+			);
+			path = "Color Catchers";
+			sourceTree = "<group>";
+		};
+		CF3D0C8444296085D78F4B92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBBF79B208C29AA2550597B7 /* Pods-Color Catchers.debug.xcconfig */,
+				BD4570A0F158E028D3DCBA08 /* Pods-Color Catchers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3EF47B2460ADF70038A47C /* Color Catchers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3EF4902460ADFB0038A47C /* Build configuration list for PBXNativeTarget "Color Catchers" */;
+			buildPhases = (
+				17CF711C9FA42365FBC2D7B0 /* [CP] Check Pods Manifest.lock */,
+				CD3EF4782460ADF70038A47C /* Sources */,
+				CD3EF4792460ADF70038A47C /* Frameworks */,
+				CD3EF47A2460ADF70038A47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Catchers";
+			productName = "Color Catchers";
+			productReference = CD3EF47C2460ADF70038A47C /* Color Catchers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3EF4742460ADF70038A47C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Samet Kutuk";
+				TargetAttributes = {
+					CD3EF47B2460ADF70038A47C = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = CD3EF4772460ADF70038A47C /* Build configuration list for PBXProject "Color Catchers" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3EF4732460ADF70038A47C;
+			productRefGroup = CD3EF47D2460ADF70038A47C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3EF47B2460ADF70038A47C /* Color Catchers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3EF47A2460ADF70038A47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1B12F22482EA2100062284 /* addTime.mp3 in Resources */,
+				CD3EF48C2460ADFB0038A47C /* LaunchScreen.storyboard in Resources */,
+				CD1B12EA2482CDD000062284 /* clickTrue.mp3 in Resources */,
+				CD1B12F42482FC8B00062284 /* doxent_-_Forgotten_Land.mp3 in Resources */,
+				CD3EF4872460ADF70038A47C /* Main.storyboard in Resources */,
+				CD1B12EE2482E6F100062284 /* clickFalse.mp3 in Resources */,
+				CD1B12F02482EA1900062284 /* finishGame.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17CF711C9FA42365FBC2D7B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Color Catchers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3EF4782460ADF70038A47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1B12EC2482D0D300062284 /* shakeLabel.swift in Sources */,
+				CD3EF4942460B17C0038A47C /* GameViewController.swift in Sources */,
+				CD3EF4962460DE900038A47C /* EndViewController.swift in Sources */,
+				CD57B8D124645C6E00D26E90 /* shakeButton.swift in Sources */,
+				CD3EF4842460ADF70038A47C /* ViewController.swift in Sources */,
+				CD3EF4802460ADF70038A47C /* AppDelegate.swift in Sources */,
+				CD3EF4822460ADF70038A47C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD3EF4852460ADF70038A47C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3EF4862460ADF70038A47C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD3EF48A2460ADFB0038A47C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3EF48B2460ADFB0038A47C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3EF48E2460ADFB0038A47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD3EF48F2460ADFB0038A47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3EF4912460ADFB0038A47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBF79B208C29AA2550597B7 /* Pods-Color Catchers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Color Catchers/Color Catchers.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 874HN9D8B8;
+				INFOPLIST_FILE = "Color Catchers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samtktk.Color-Catchers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD3EF4922460ADFB0038A47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4570A0F158E028D3DCBA08 /* Pods-Color Catchers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Color Catchers/Color Catchers.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 874HN9D8B8;
+				INFOPLIST_FILE = "Color Catchers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "smtktk.Color-Catchers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3EF4772460ADF70038A47C /* Build configuration list for PBXProject "Color Catchers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3EF48E2460ADFB0038A47C /* Debug */,
+				CD3EF48F2460ADFB0038A47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3EF4902460ADFB0038A47C /* Build configuration list for PBXNativeTarget "Color Catchers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3EF4912460ADFB0038A47C /* Debug */,
+				CD3EF4922460ADFB0038A47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3EF4742460ADF70038A47C /* Project object */;
+}
